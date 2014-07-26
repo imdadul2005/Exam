@@ -1,0 +1,100 @@
+Answer these below Questions:
+----------------------------------------------
+What jdk contains or composed of and define each components?
+
+What is IDE?
+Integrated development environment
+
+What are the IDEs available in the market to support java?
+Eclipse, NetBeans, JBuilder, IntelliJ IDEA
+Explain the entire java life cycle.
+
+what is class?
+It define object and its structure. 
+
+What is object?
+Instance of a class.
+
+What is the entry point of an application?
+main class 
+public static void main (String [] args)
+
+Why main is static?
+otherwise JVM would need as instance of this object, and it would be hard to know there is the starting point.
+
+What is the difference between an Interface and Abstract class?
+Abstract class may or may not define method wherelse Interface donesn't define method which must be overwritten in concrete class.  
+  
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+No you cannot. You have to implement and extend those in a concrete class. 
+
+what is Access Specifier?
+1. public
+2. private
+3. protected
+4. default(no specifier)
+
+What is OOP ? Define each feature of java OOP.
+Object-oriented programming.  
+
+What is API? Name list of API that you have used so far.
+Application programming interface.
+String, Arrays, List, Queue, Set
+
+
+Does java support multiple inheritance?
+No
+
+What is method overloading and when it happens?
+when multiple method has same name with differnt paremeter, return name,  or different access specifier. 
+
+What is method overriding and when it happens?
+It happens when a child redefine its parents class.
+
+
+Explain exceptions in java and how to handle it.
+
+
+
+What is static keyword in java? How it has been used in variables and methods ?
+It is a class object instead of instance object. static is shared between all of this instance. 
+Example of how it is used in variable and method are below,
+class x{
+int static y = 10;
+public void static pr ()
+{
+System.out.println("this");
+}
+}
+
+class y{
+x.pr();
+x.y 
+x ab= new x(); // no need to define
+}
+
+What is final and how it has been used variables and methods?
+
+
+
+What is final, finally and finalize?
+
+What is a constructor ?
+
+What is "this" keyword in java ?
+
+
+What is JVM stand for ?
+Java Virtual Mechine
+
+What version of java are you using?
+
+
+What is JAR stand for ?
+Java ARchive
+What is compile time and run time?
+
+What is heap?
+
+How java manage it's memory?
+
